@@ -5,7 +5,7 @@ describe("Testes automatizados para o serviço de cupons da EBAC-SHOP", () => {
         method: "POST",
         url: "http://lojaebac.ebaconline.art.br/rest-api/auth",
         headers: {
-          Authorization: "Basic YWRtaW5fZWJhYzpAYWRtaW4hJmJAYyEyMDIy",
+          authorization: "Basic YWRtaW5fZWJhYzpAYWRtaW4hJmJAYyEyMDIy",
         },
         body: {
           usuario: "admin_ebac",
