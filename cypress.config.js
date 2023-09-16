@@ -6,8 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
 
-   //baseURL: 'http://lojaebac.ebaconline.art.br/',
-   chromeWebSecurity: false
+     chromeWebSecurity: false
 
   },
 });
